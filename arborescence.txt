@@ -1,0 +1,32 @@
+.
+├── .env.example
+├── README.md
+├── app
+│   ├── api
+│   │   ├── subscription
+│   │   │   └── route.ts
+│   │   ├── summarize
+│   │   │   └── route.ts
+│   │   └── webhook
+│   │       └── route.ts
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── pricing
+│       └── page.tsx
+├── arborescence.txt
+├── components
+│   ├── PricingCards.tsx
+│   └── SummarizerForm.tsx
+├── lib
+│   ├── openai.ts
+│   ├── stripe.ts
+│   ├── supabase.ts
+│   └── youtube.ts
+├── next.config.js
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── tsconfig.json
+
+9 directories, 21 files
