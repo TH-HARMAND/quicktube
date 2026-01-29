@@ -5,18 +5,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-  "next": "^14.0.4",
-  "react": "^18.2.0",
-  "react-dom": "^18.2.0",
-  "openai": "^4.20.1",
-  "stripe": "^14.5.0",
-  "@supabase/supabase-js": "^2.38.4",
-  "lucide-react": "^0.294.0",
-  "youtube-transcript": "^1.0.6"
-}
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "openai": "^4.20.1",
+    "stripe": "^14.5.0",
+    "@supabase/supabase-js": "^2.38.4",
+    "lucide-react": "^0.294.0",
+    "youtube-transcript": "^1.0.6"
+  },
   "devDependencies": {
     "@types/node": "^20.10.4",
     "@types/react": "^18.2.42",
